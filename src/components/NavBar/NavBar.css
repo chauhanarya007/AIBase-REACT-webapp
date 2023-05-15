@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .aibase__navbar {
     display: flex;
     justify-content: space-between;
@@ -15,6 +16,9 @@
 
 .aibase__navbar-links_logo {
     margin-right: 2rem;
+    color: #FABD04;
+    font-family: 'Righteous', cursive;
+    font-size: large;
 }
 
 .aibase__navbar-links_logo img {
@@ -51,15 +55,21 @@
 .aibase__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+    background: #fabc0400;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    border: none;
+    border: 2px solid #FABD04;
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.aibase__navbar-sign > button:hover {
+    
+    background: #FABD04;
+    transition: all 0.3s ease-out;
 }
 
 .aibase__navbar-menu {

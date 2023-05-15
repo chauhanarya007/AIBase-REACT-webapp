@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  transition: all 0.2s ease;
 }
 
 body {
@@ -14,6 +15,11 @@ body {
 a {
   color: unset;
   text-decoration: none;
+}
+
+::selection {
+  color: #fff;
+  background: rgba(196, 156, 0, 0.299);
 }
 
 .gradient__bg {

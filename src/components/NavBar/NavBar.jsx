@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './NavBar.css'
-import logo from '../../assets/logo.svg';
+
 
 
 
@@ -11,7 +11,7 @@ const NavBar = () => {
     <div className="aibase__navbar">
       <div className="aibase__navbar-links">
         <div className="aibase__navbar-links_logo">
-          <img src={logo} />
+          <h3>AIBASE</h3>
         </div>
         <div className="aibase__navbar-links_container">
           <p><a href="#home">Home</a></p>
